@@ -5,21 +5,23 @@
 //  Created by 雨月星缘 on 2017/11/9.
 //  Copyright © 2017年 雨月星缘. All rights reserved.
 //
-
+/*
+ CAShapeLayer渲染快速，使用硬件加速；高效使用内存；不会被图层边界剪裁掉；不会出现像素化
+ CAShapeLayer可以用来绘制所有能够通过CGPath来表示的形状。这个形状不一定要闭合，图层路径也不一定要不可破
+ */
 import UIKit
 
-class SpecialViewController: UIViewController {
+class CAShapeLayerViewController: UIViewController {
     
-    /*
-     CAShapeLayer渲染快速，使用硬件加速；高效使用内存；不会被图层边界剪裁掉；不会出现像素化
-     CAShapeLayer可以用来绘制所有能够通过CGPath来表示的形状。这个形状不一定要闭合，图层路径也不一定要不可破
-     */
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // 一般用法
         normalShapeLayer()
         
+        // 画圆角
         circularShapeLayer()
         // Do any additional setup after loading the view.
     }
