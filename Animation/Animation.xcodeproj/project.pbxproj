@@ -12,6 +12,7 @@
 		27463D7D1FB3E7C900C66808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27463D7B1FB3E7C900C66808 /* Main.storyboard */; };
 		27463D7F1FB3E7C900C66808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27463D7E1FB3E7C900C66808 /* Assets.xcassets */; };
 		27463D821FB3E7C900C66808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27463D801FB3E7C900C66808 /* LaunchScreen.storyboard */; };
+		27463D8B1FB3EC3600C66808 /* SpecialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27463D8A1FB3EC3600C66808 /* SpecialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		27463D7E1FB3E7C900C66808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27463D811FB3E7C900C66808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27463D831FB3E7C900C66808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27463D8A1FB3EC3600C66808 /* SpecialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		27463D761FB3E7C900C66808 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				27463D891FB3EBE300C66808 /* 专有图层 */,
 				27463D771FB3E7C900C66808 /* AppDelegate.swift */,
 				27463D791FB3E7C900C66808 /* ViewController.swift */,
 				27463D7B1FB3E7C900C66808 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				27463D831FB3E7C900C66808 /* Info.plist */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		27463D891FB3EBE300C66808 /* 专有图层 */ = {
+			isa = PBXGroup;
+			children = (
+				27463D8A1FB3EC3600C66808 /* SpecialViewController.swift */,
+			);
+			path = "专有图层";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				27463D7A1FB3E7C900C66808 /* ViewController.swift in Sources */,
 				27463D781FB3E7C900C66808 /* AppDelegate.swift in Sources */,
+				27463D8B1FB3EC3600C66808 /* SpecialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29PZMJ5829;
+				DEVELOPMENT_TEAM = 79AZ9QTQ73;
 				INFOPLIST_FILE = Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rihui.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,8 +303,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29PZMJ5829;
+				DEVELOPMENT_TEAM = 79AZ9QTQ73;
 				INFOPLIST_FILE = Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rihui.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
