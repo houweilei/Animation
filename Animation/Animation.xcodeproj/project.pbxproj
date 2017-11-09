@@ -13,6 +13,7 @@
 		27463D7F1FB3E7C900C66808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27463D7E1FB3E7C900C66808 /* Assets.xcassets */; };
 		27463D821FB3E7C900C66808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27463D801FB3E7C900C66808 /* LaunchScreen.storyboard */; };
 		27463D8B1FB3EC3600C66808 /* CAShapeLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27463D8A1FB3EC3600C66808 /* CAShapeLayerViewController.swift */; };
+		27463D8D1FB421E000C66808 /* CATransformLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27463D8C1FB421E000C66808 /* CATransformLayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		27463D811FB3E7C900C66808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27463D831FB3E7C900C66808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27463D8A1FB3EC3600C66808 /* CAShapeLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAShapeLayerViewController.swift; sourceTree = "<group>"; };
+		27463D8C1FB421E000C66808 /* CATransformLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATransformLayerViewController.swift; sourceTree = "<group>"; tabWidth = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				27463D8A1FB3EC3600C66808 /* CAShapeLayerViewController.swift */,
+				27463D8C1FB421E000C66808 /* CATransformLayerViewController.swift */,
 			);
 			path = "专有图层";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				27463D7A1FB3E7C900C66808 /* ViewController.swift in Sources */,
 				27463D781FB3E7C900C66808 /* AppDelegate.swift in Sources */,
 				27463D8B1FB3EC3600C66808 /* CAShapeLayerViewController.swift in Sources */,
+				27463D8D1FB421E000C66808 /* CATransformLayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
